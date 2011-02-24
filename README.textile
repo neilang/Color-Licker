@@ -1,0 +1,7 @@
+h1. Color Licker
+
+Basic OS X (10.6) color (a.k.a colour) picker
+
+h2. TODO
+
+ * Icon + interface
