@@ -1,18 +1,22 @@
 //
-//  Color_LickerAppDelegate.h
-//  Color Licker
+// Color_LickerAppDelegate.h
+// Color Licker
 //
-//  Created by Neil Ang on 24/02/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+// Created by Neil Ang on 24/02/11.
+// Copyright 2011 neilang.com. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 
-@interface Color_LickerAppDelegate : NSObject <NSApplicationDelegate> {
-@private
-  NSWindow *window;
+@interface Color_LickerAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate> {
+	@private
+	NSWindow    *window;
+	NSColorWell *_colorWell;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+- (IBAction)selectColor:(id)sender;
+
+@property (assign) IBOutlet NSWindow               *window;
+@property (nonatomic, assign) IBOutlet NSColorWell *colorWell;
 
 @end

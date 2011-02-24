@@ -21,12 +21,12 @@
 		2862AAF713160A5000D4A0A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2862AAF813160A5000D4A0A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2862AAF913160A5000D4A0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2862AAFC13160A5000D4A0A3 /* Color_Licker-Info.plist */ = {isa = PBXFileReference; path = "Color_Licker-Info.plist"; sourceTree = "<group>"; };
+		2862AAFC13160A5000D4A0A3 /* Color_Licker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Color_Licker-Info.plist"; sourceTree = "<group>"; };
 		2862AAFE13160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2862AB0013160A5000D4A0A3 /* Color_Licker-Prefix.pch */ = {isa = PBXFileReference; path = "Color_Licker-Prefix.pch"; sourceTree = "<group>"; };
+		2862AB0013160A5000D4A0A3 /* Color_Licker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color_Licker-Prefix.pch"; sourceTree = "<group>"; };
 		2862AB0113160A5000D4A0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2862AB0413160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2862AB0613160A5000D4A0A3 /* Color_LickerAppDelegate.h */ = {isa = PBXFileReference; path = Color_LickerAppDelegate.h; sourceTree = "<group>"; };
+		2862AB0613160A5000D4A0A3 /* Color_LickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color_LickerAppDelegate.h; sourceTree = "<group>"; };
 		2862AB0713160A5000D4A0A3 /* Color_LickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_LickerAppDelegate.m; sourceTree = "<group>"; };
 		2862AB0A13160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
