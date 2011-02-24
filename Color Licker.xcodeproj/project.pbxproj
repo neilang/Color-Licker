@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2862AAF513160A5000D4A0A3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2862AAF413160A5000D4A0A3 /* Cocoa.framework */; };
+		2862AAFF13160A5000D4A0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2862AAFD13160A5000D4A0A3 /* InfoPlist.strings */; };
+		2862AB0213160A5000D4A0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862AB0113160A5000D4A0A3 /* main.m */; };
+		2862AB0513160A5000D4A0A3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2862AB0313160A5000D4A0A3 /* Credits.rtf */; };
+		2862AB0813160A5000D4A0A3 /* Color_LickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2862AB0713160A5000D4A0A3 /* Color_LickerAppDelegate.m */; };
+		2862AB0B13160A5000D4A0A3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2862AB0913160A5000D4A0A3 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2862AAF013160A5000D4A0A3 /* Color Licker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Licker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2862AAF413160A5000D4A0A3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2862AAF713160A5000D4A0A3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2862AAF813160A5000D4A0A3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2862AAF913160A5000D4A0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2862AAFC13160A5000D4A0A3 /* Color_Licker-Info.plist */ = {isa = PBXFileReference; path = "Color_Licker-Info.plist"; sourceTree = "<group>"; };
+		2862AAFE13160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2862AB0013160A5000D4A0A3 /* Color_Licker-Prefix.pch */ = {isa = PBXFileReference; path = "Color_Licker-Prefix.pch"; sourceTree = "<group>"; };
+		2862AB0113160A5000D4A0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2862AB0413160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2862AB0613160A5000D4A0A3 /* Color_LickerAppDelegate.h */ = {isa = PBXFileReference; path = Color_LickerAppDelegate.h; sourceTree = "<group>"; };
+		2862AB0713160A5000D4A0A3 /* Color_LickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color_LickerAppDelegate.m; sourceTree = "<group>"; };
+		2862AB0A13160A5000D4A0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2862AAED13160A5000D4A0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862AAF513160A5000D4A0A3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2862AAE513160A5000D4A0A3 = {
+			isa = PBXGroup;
+			children = (
+				2862AAFA13160A5000D4A0A3 /* Color Licker */,
+				2862AAF313160A5000D4A0A3 /* Frameworks */,
+				2862AAF113160A5000D4A0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2862AAF113160A5000D4A0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2862AAF013160A5000D4A0A3 /* Color Licker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2862AAF313160A5000D4A0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2862AAF413160A5000D4A0A3 /* Cocoa.framework */,
+				2862AAF613160A5000D4A0A3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2862AAF613160A5000D4A0A3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2862AAF713160A5000D4A0A3 /* AppKit.framework */,
+				2862AAF813160A5000D4A0A3 /* CoreData.framework */,
+				2862AAF913160A5000D4A0A3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2862AAFA13160A5000D4A0A3 /* Color Licker */ = {
+			isa = PBXGroup;
+			children = (
+				2862AB0613160A5000D4A0A3 /* Color_LickerAppDelegate.h */,
+				2862AB0713160A5000D4A0A3 /* Color_LickerAppDelegate.m */,
+				2862AB0913160A5000D4A0A3 /* MainMenu.xib */,
+				2862AAFB13160A5000D4A0A3 /* Supporting Files */,
+			);
+			path = "Color Licker";
+			sourceTree = "<group>";
+		};
+		2862AAFB13160A5000D4A0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2862AAFC13160A5000D4A0A3 /* Color_Licker-Info.plist */,
+				2862AAFD13160A5000D4A0A3 /* InfoPlist.strings */,
+				2862AB0013160A5000D4A0A3 /* Color_Licker-Prefix.pch */,
+				2862AB0113160A5000D4A0A3 /* main.m */,
+				2862AB0313160A5000D4A0A3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2862AAEF13160A5000D4A0A3 /* Color Licker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2862AB0E13160A5000D4A0A3 /* Build configuration list for PBXNativeTarget "Color Licker" */;
+			buildPhases = (
+				2862AAEC13160A5000D4A0A3 /* Sources */,
+				2862AAED13160A5000D4A0A3 /* Frameworks */,
+				2862AAEE13160A5000D4A0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Licker";
+			productName = "Color Licker";
+			productReference = 2862AAF013160A5000D4A0A3 /* Color Licker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2862AAE713160A5000D4A0A3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2862AAEA13160A5000D4A0A3 /* Build configuration list for PBXProject "Color Licker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2862AAE513160A5000D4A0A3;
+			productRefGroup = 2862AAF113160A5000D4A0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2862AAEF13160A5000D4A0A3 /* Color Licker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2862AAEE13160A5000D4A0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862AAFF13160A5000D4A0A3 /* InfoPlist.strings in Resources */,
+				2862AB0513160A5000D4A0A3 /* Credits.rtf in Resources */,
+				2862AB0B13160A5000D4A0A3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2862AAEC13160A5000D4A0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2862AB0213160A5000D4A0A3 /* main.m in Sources */,
+				2862AB0813160A5000D4A0A3 /* Color_LickerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2862AAFD13160A5000D4A0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2862AAFE13160A5000D4A0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2862AB0313160A5000D4A0A3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2862AB0413160A5000D4A0A3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2862AB0913160A5000D4A0A3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2862AB0A13160A5000D4A0A3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2862AB0C13160A5000D4A0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2862AB0D13160A5000D4A0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2862AB0F13160A5000D4A0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Licker/Color_Licker-Prefix.pch";
+				INFOPLIST_FILE = "Color Licker/Color_Licker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2862AB1013160A5000D4A0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Color Licker/Color_Licker-Prefix.pch";
+				INFOPLIST_FILE = "Color Licker/Color_Licker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2862AAEA13160A5000D4A0A3 /* Build configuration list for PBXProject "Color Licker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862AB0C13160A5000D4A0A3 /* Debug */,
+				2862AB0D13160A5000D4A0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2862AB0E13160A5000D4A0A3 /* Build configuration list for PBXNativeTarget "Color Licker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2862AB0F13160A5000D4A0A3 /* Debug */,
+				2862AB1013160A5000D4A0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2862AAE713160A5000D4A0A3 /* Project object */;
+}
