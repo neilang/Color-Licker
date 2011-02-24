@@ -10,13 +10,16 @@
 
 @interface Color_LickerAppDelegate : NSObject <NSApplicationDelegate, NSWindowDelegate> {
 	@private
-	NSWindow    *window;
-	NSColorWell *_colorWell;
+	NSWindow      *window;
+	NSColorWell   *_colorWell;
+	NSPopUpButton *_popupButton;
 }
 
 - (IBAction)selectColor:(id)sender;
+- (IBAction)copyToPasteBoard:(id)sender;
 
-@property (assign) IBOutlet NSWindow               *window;
-@property (nonatomic, assign) IBOutlet NSColorWell *colorWell;
+@property (assign) IBOutlet NSWindow                 *window;
+@property (nonatomic, assign) IBOutlet NSColorWell   *colorWell;
+@property (nonatomic, assign) IBOutlet NSPopUpButton *popupButton;
 
 @end

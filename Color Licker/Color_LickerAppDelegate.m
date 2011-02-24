@@ -11,14 +11,21 @@
 @implementation Color_LickerAppDelegate
 
 @synthesize window;
-@synthesize colorWell = _colorWell;
+@synthesize colorWell   = _colorWell;
+@synthesize popupButton = _popupButton;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	self.window.delegate = self;
+
+	[self.popupButton removeAllItems];
+
+	[self.popupButton addItemWithTitle:@"#rrggbb"];
+	[self.popupButton addItemWithTitle:@"rgb(r, g, b)"];
 }
 
 - (void)dealloc {
-	self.colorWell = nil;
+	self.colorWell   = nil;
+	self.popupButton = nil;
 	[super dealloc];
 }
 
@@ -29,6 +36,33 @@
 
 	// Call private selector
 	[panel performSelector:@selector(_magnify:)];
+}
+
+- (IBAction)copyToPasteBoard:(id)sender {
+	NSString *output = nil;
+	NSString *format = [[self.popupButton selectedItem] title];
+	NSColor  *color  = [self.colorWell color]; // [[self.colorWell color] colorUsingColorSpaceName:NSCalibratedRGBColorSpace];
+
+	double redFloatValue, greenFloatValue, blueFloatValue;
+
+	[color getRed:&redFloatValue green:&greenFloatValue blue:&blueFloatValue alpha:NULL];
+
+	int redIntValue, greenIntValue, blueIntValue;
+
+	redIntValue   = redFloatValue * 255.9999f;
+	greenIntValue = greenFloatValue * 255.9999f;
+	blueIntValue  = blueFloatValue * 255.9999f;
+
+	if ([format isEqualToString:@"#rrggbb"]) {
+		output = [NSString stringWithFormat:@"#%02x%02x%02x", redIntValue, greenIntValue, blueIntValue];
+	} else {
+		output = [NSString stringWithFormat:@"rgb(%d, %d, %d)", redIntValue, greenIntValue, blueIntValue];
+	}
+
+
+	NSPasteboard *pb = [NSPasteboard generalPasteboard];
+	[pb declareTypes:[NSArray arrayWithObjects:NSStringPboardType, nil] owner:self];
+	[pb setString:output forType:NSStringPboardType];
 }
 
 #pragma - Color Panel Delegates
